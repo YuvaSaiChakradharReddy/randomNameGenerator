@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    background: linear-gradient(135deg, #f9f7d9 0%, #f7e8ff 100%);
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -10,15 +10,15 @@ body {
 }
 
 .main-container {
-    background: #ffffffcc;
+    background: #fffbe6cc;
     padding: 40px 30px;
     border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.15);
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.10);
     text-align: center;
 }
 
 h1 {
-    color: #2d3e50;
+    color: #6c3483;
     margin-top: 0;
     letter-spacing: 1px;
 }
@@ -31,8 +31,8 @@ form {
 
 button {
     padding: 10px 24px;
-    background: linear-gradient(90deg, #4CAF50 0%, #43cea2 100%);
-    color: white;
+    background: linear-gradient(90deg, #ffb347 0%, #ffcc80 100%);
+    color: #6c3483;
     border: none;
     border-radius: 24px;
     font-size: 16px;
@@ -42,19 +42,19 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(90deg, #43cea2 0%, #4CAF50 100%);
+    background: linear-gradient(90deg, #ffcc80 0%, #ffb347 100%);
     transform: translateY(-2px) scale(1.05);
 }
 
 footer {
+    background: #6c3483;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #eee;
-    color: #333;
-    text-align: center;
-    padding: 12px 0;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
     z-index: 10;
 }
