@@ -15,6 +15,7 @@ app.get("/", function (request, response) {
 app.post("/generate", function (req, res) {
     var randomName = names();
     console.log("Generated random name: " + randomName);
+
     res.render("index", {
         title: randomName
     });
